@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Principal Font Family";
+  src: url("../fonts/WinkySans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Principal Font Family";
+  src: url("../fonts/WinkySans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Principal Font Family", sans-serif;
+}
+section {
+  height: 1500px;
+}
+article {
+  background-color: lightgrey;
+  padding: 0.6em;
+  margin: 0.8em auto;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  padding: 1.5em;
+  background-color: rgb(173, 173, 173);
+}
+.navbar .navbar-default {
+  margin: 0px;
+}
+.navbar-default .navbar-brand {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-nav > li > a {
+  color: black;
+  padding: 0.4em;
+  border-bottom: 2px solid rgb(144, 144, 144);
+  margin-right: 0px;
+  font-size: 1.1em;
+}
+.navbar-toggle {
+  background-color: rgb(224, 224, 224);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
